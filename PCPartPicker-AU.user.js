@@ -8,7 +8,6 @@
 // ==/UserScript==
 
 if (location.hostname.startsWith('pcpartpicker.com')) {
-
   window.stop();
   location.hostname = 'au.pcpartpicker.com';
 } 
